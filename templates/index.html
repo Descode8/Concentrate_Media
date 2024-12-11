@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0px;
+            background: linear-gradient(to right, #050716, #181846);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible grid columns */
+            gap: 20px; /* Uniform spacing between rows and columns */
+            max-width: 1200px; /* Restrict grid width for centered alignment */
+            width: 100%; /* Make the grid responsive */
+            margin: 0 auto; /* Center the grid horizontally */
+        }
+        
+        iframe {
+            border-radius: 10px;
+            background: linear-gradient(90deg, #161a38f2, #0051ffb4, #161a38f2);
+            padding: 5px;
+            border: 2px solid rgb(0, 0, 0);
+            box-shadow: -5px 5px 15px black;
+            width: 100%; /* Full width of grid cell */
+            aspect-ratio: 16 / 9; /* Maintain aspect ratio */
+        }   
+        h1 {
+            display: flex;
+            font-size: 2rem;
+        }     
+    </style>
+</head>
+<body>
+    
+    <div class="grid-container">
+        <iframe src="https://www.youtube.com/embed/28QvSs2_zec?si=gqduuKfM0WuJL5xR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/mg7netw1JuM?si=cmnCFX5K-WsV3sfK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/lkkGlVWvkLk?si=CBFj7_MHVKZ7vKdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/44-HzZJjEWI?si=41dKwd35ZNQ1MTzP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/tAIiXRZNh9E?si=_h-8tSIJvsvA7oRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/FcrgfVlHDJk?si=s3Sv5FSCRFp_WTo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/-pu93aq9uP4?si=bisH9j_O-llFZHby" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/dJoXVILGeKQ?si=DAU_dp3ZiWCog8Ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/-vvpsIiUVKY?si=8Gr_EYBuWs0_IjGb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
+
